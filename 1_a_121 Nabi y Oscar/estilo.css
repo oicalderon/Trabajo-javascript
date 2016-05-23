@@ -1,0 +1,63 @@
+body{
+	margin-left: 20%;
+	margin-right: 20%;
+	font: oblique bold 100% cursive; 
+	text-align: center;
+}
+
+table{
+	text-align: center;
+	 background-image: url("img.jpg");	
+	border-radius: 6px;
+}
+
+td{
+	width: 60px;
+	cursor: pointer;
+	margin: 2px;
+	font-size: 20pt;
+	border-radius: 6px;
+	background-color: rgba(184, 229, 253, 0.6); 
+
+}
+
+button{
+	background: #da4f49;
+    color: #fafafa;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: 22px;
+    padding: 1%;
+}
+
+.correcto
+{
+	background-color: green;
+	color: white;
+	cursor: not-allowed;	
+}
+
+.ayuda
+{
+	background-color: blue;
+	color: white;
+}
+
+
+#tiempo{
+	float: left;
+}
+
+#siguiente{
+	float: left;
+	color: blue;
+}
+
+#ayuda{
+	float: right;
+}
+
+#ganador{
+	color: green;
+}
